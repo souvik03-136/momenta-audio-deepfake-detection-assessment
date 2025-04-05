@@ -90,25 +90,25 @@ pip install -r requirements.txt
 ## Setup & Installation
 
 1. **Clone this repository**
-
-   ```bash
-git clone https://github.com/yourusername/asvspoof_project.git
-cd asvspoof_project
-```
+   ``` bash
+   git clone https://github.com/souvik03-136/momenta-audio-deepfake-detection-assessment.git
+   
+   cd momenta-audio-deepfake-detection-assessment.git
+   ```
 
 2. **Create and activate a virtual environment** (optional but recommended)
 
    ```bash
-python -m venv venv
-source venv/bin/activate    # Linux/macOS
-venv\Scripts\activate     # Windows
-```
+   python -m venv venv
+   source venv/bin/activate    # Linux/macOS
+   venv\Scripts\activate     # Windows
+   ```
 
 3. **Install dependencies**
 
    ```bash
-pip install -r requirements.txt
-```
+   pip install -r requirements.txt
+   ```
 
 ---
 
