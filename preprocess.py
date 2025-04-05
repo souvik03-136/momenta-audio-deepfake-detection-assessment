@@ -1,7 +1,7 @@
-# preprocess.py
 
 import os
 import torchaudio
+import torch
 
 def preprocess_audio(input_path, output_path, target_sr=16000):
     """
@@ -25,8 +25,6 @@ def batch_preprocess(src_dir, dst_dir, ext_in=".flac", ext_out=".wav"):
         preprocess_audio(in_path, out_path)
 
 if __name__ == "__main__":
-    # Example usage:
-    # python preprocess.py /path/to/flac /path/to/wav
     import sys
     src, dst = sys.argv[1], sys.argv[2]
     batch_preprocess(src, dst)

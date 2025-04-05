@@ -1,6 +1,3 @@
-# model.py
-
-import torch
 import torch.nn as nn
 
 class AASIST(nn.Module):

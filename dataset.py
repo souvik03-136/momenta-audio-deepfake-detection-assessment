@@ -1,5 +1,3 @@
-# dataset.py
-
 import os
 import pandas as pd
 import torch
@@ -27,7 +25,6 @@ class ASVSpoofDataset(Dataset):
         label = 0 if row.key == "bonafide" else 1
         audio_path = os.path.join(self.root_dir, utt + self.ext)
         waveform, sr = torchaudio.load(audio_path)
-        # Compute LFCC features (60 dims)
         lfcc = torchaudio.compliance.kaldi.lfcc(
             waveform, num_ceps=60, sample_frequency=sr
         )

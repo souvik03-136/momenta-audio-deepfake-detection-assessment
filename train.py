@@ -1,9 +1,7 @@
-# train.py
-
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
-from model import AASIST
+from models import AASIST
 from dataset import ASVSpoofDataset
 
 def train_model(train_dir, protocol, epochs=10, batch_size=32, lr=1e-3):
