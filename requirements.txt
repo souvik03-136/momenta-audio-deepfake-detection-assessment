@@ -1,0 +1,10 @@
+# Core ML framework
+torch>=1.10.0
+torchaudio>=0.10.0
+
+# Data handling
+pandas>=1.1.0
+numpy>=1.18.0
+
+# Metrics
+scikit-learn>=0.22.0
